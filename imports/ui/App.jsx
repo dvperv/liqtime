@@ -23,13 +23,13 @@ export default class App extends React.Component{
         //defaults.global.legend = false;
     }
 
-    static HHfill(){
+    HHfill(){
         let a=[];
         for(i=0; i<24; i++) a.push( <option value={i}>{i}</option>);
         return a;
     }
 
-    static MMfill(){
+    MMfill(){
         let a=[];
         for(i=0; i<60; i++) a.push( <option value={i}>{i}</option>);
         return a;
